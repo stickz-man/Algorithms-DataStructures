@@ -1,0 +1,29 @@
+//Brayden Fidler
+
+1.       ( 5)
+		/    \
+   	 ( 3 )    (7       9)
+	 /   \	 /	   |    \
+  (1 2)(3 4)(5 6)(7 8) (9 10)
+
+2. 1 2 3 4 5 6 7 8 9 10
+
+3. Static members do not depend on the object of the class, so static members
+	are the same for either derived class
+
+4.the function can be overidden by derived classes and called by whatever
+	dynamic type the node is
+
+5. It's a reference to a new value in that leaf. If it returns nullptr, nothing
+	happens to new key.
+
+6. The while loop finds the position that the item will go into, then the item
+	will be inserted into the child. A reference to that is returned to split.
+	If that reference is not nullptr, then the item will be moved down the tree.
+
+7. Dump is called on the root which has no depth and therefore won't need to be
+	idented whether it's an internal node or a leaf
+
+8. It's bad because it has no comments, allows duplicates, and prints out values
+	in more than one level. It's good because all the values in the tree are 
+	present in the leaves.
